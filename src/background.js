@@ -14,7 +14,7 @@ chrome.action.onClicked.addListener(async (tab) => {
   }
   if (/https:\/\/.*\.[json|y?ml]/.test(url)) {
     chrome.tabs.create({
-      url: `https://swagger-ui-viewer.vercel.app/?api=${url}`,
+      url: `https://swagger-ui-viewer.vercel.app/?url=${url}`,
     });
   }
 });
