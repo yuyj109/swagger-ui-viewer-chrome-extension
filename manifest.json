@@ -17,7 +17,7 @@
   "host_permissions": [
     "https://github.com/*"
   ],
-  "permissions": ["scripting", "activeTab", "tabs", "cookies"],
+  "permissions": ["tabs", "cookies"],
   "commands": {
     "_execute_action": {
       "suggested_key": {
