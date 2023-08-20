@@ -1,0 +1,12 @@
+{
+  "name": "swagger-ui-viewer",
+  "version": "1.0.0",
+  "description": "swagger ui viewer chrome extension",
+  "scripts": {
+    "cleanup": "rm -rf ./dist && mkdir -p ./dist",
+    "package": "mkdir -p ./dist && N=`node -p \"require('./package.json').name\"` && V=`node -p \"require('./package.json').version\"` &&  zip -r ./dist/$N-v$V.zip manifest.json src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
